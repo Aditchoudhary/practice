@@ -41,8 +41,8 @@ public class LazyLoadingSingletonWithSerialization implements Serializable,Clone
 	}
 	
 	
-	
 	protected Object readResolve() {
+		
 		return getInstance();
 	}
 }

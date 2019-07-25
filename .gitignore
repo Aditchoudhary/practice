@@ -1,0 +1,6 @@
+syntax: glob
+
+Practice/.idea/
+Practice/classes/
+
+*.iml

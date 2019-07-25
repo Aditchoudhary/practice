@@ -8,6 +8,6 @@ public class Substring {
 		System.out.println(s2);
 		
 		s= "heroooooo";
-				System.out.println(s2);	
+		System.out.println(s2);	
 	}
 }

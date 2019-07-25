@@ -31,7 +31,7 @@ public class ReverseString {
 	}
 		
 		ArrayList<String> newarrayList = new ArrayList<>();
-		Object left,right,swap;
+		Object left,right;
 		
 		int loop = con.length/2;
 		System.out.println(loop);
