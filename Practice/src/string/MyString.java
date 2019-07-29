@@ -35,10 +35,7 @@ public class MyString {
 			Object[] arr = new Object[]{"adit",3,4};
 			System.out.println(arr);
 			System.out.println(Arrays.deepToString(arr));
-			
-			
-			
-			
+
 			return 21;	
 		} 
 		catch(Exception e){

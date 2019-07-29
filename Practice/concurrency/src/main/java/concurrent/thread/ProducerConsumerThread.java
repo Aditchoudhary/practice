@@ -13,7 +13,6 @@ public class ProducerConsumerThread {
 
     Consumer consumer = new Consumer();
     consumer.start();
-
   }
 
 

@@ -155,6 +155,18 @@ public class LinkedList<T> {
     return prev;
   }
 
+  public void reverse(Node<T> prev, Node<T> current){
+
+    if(current == null) {
+        head = prev;
+      return ;
+
+    }
+    reverse(current, current.next);
+    current.next = prev;
+
+  }
+
   /**
    * @param head
    * @about Add 1 to a number represented as linked list

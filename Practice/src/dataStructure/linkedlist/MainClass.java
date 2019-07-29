@@ -10,7 +10,10 @@ public class MainClass {
     ll.add(3);
     ll.add(4);
     ll.add(5);
-    ll.getMiddleElement(ll.head);
+
+    ll.reverse(null, ll.head);
+    ll.printLinkedList();
+    //ll.getMiddleElement(ll.head);
 
 		/*ll.add(5);
 		ll.add(6);*/
